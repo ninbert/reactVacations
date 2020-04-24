@@ -1,0 +1,144 @@
+.card-img-bottom2 {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	
+}
+
+.card-img-bottom {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+    width: 100%;
+	height: 100%;
+	
+}
+
+
+.spaced {
+    margin-left:5px;
+}
+
+.centeredIcon{
+
+    float:left;
+    margin-right:5px ;
+    margin-top:3px;
+
+}
+
+.righty {
+    position:absolute;
+    top:10px;
+	right:10px;
+	font-family: 'Baloo', cursive;
+    
+
+}
+
+.tag {
+	display: inline-block;
+	font-family: 'Baloo', cursive;
+  width: auto;
+	height: 38px;
+	color: white;
+	background-color: #70e7e1;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid #70e7e1;
+
+	/* This makes room for the triangle */
+	margin-left: 19px;
+	
+	position: absolute;
+	top:10px;
+	left:10px;
+	
+	
+	font-weight: 300;
+	
+	font-size: 16px;
+	line-height: 38px;
+
+	padding: 0 10px 0 10px;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    text-align: center;
+	width: 100%;
+	padding-right: 3.0em;
+	
+}
+
+.cardTitle {
+		/* position: absolute;
+  top: 10px;
+  left: 10px; */
+  font-family: 'Baloo', cursive;
+  font-size:28px;
+  color:white;
+  text-shadow: 1px 0.5px 0.5px rgb(63, 63, 63);
+  
+}
+
+.date-text{
+float:right;
+font-family: 'Baloo', cursive;
+position: absolute;
+bottom:-18px;
+right:5px;
+font-size:18px;
+color:white;
+text-shadow: 1px 0.5px 1px rgb(63, 63, 63);
+}
+
+.bottom-text {
+position:absolute;
+bottom:3px;
+left:5px;
+font-family: 'Baloo', cursive;
+color:white;
+text-shadow: 0px 0.5px 0px rgb(63, 63, 63);
+}
+
+
+/* Makes the triangle */
+.tag:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -19px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-right: 19px solid #70e7e1;
+}
+
+/* Makes the circle */
+.tag:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -9px;
+	top: 17px;
+}
+
+
+.card{
+    -webkit-box-shadow: 0px 0px 50px -2px rgba(138,135,138,1);
+-moz-box-shadow: 0px 0px 50px -2px rgba(138,135,138,1);
+box-shadow: 0px 0px 50px -2px rgba(138,135,138,1);
+}
