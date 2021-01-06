@@ -11,7 +11,7 @@
   "dependencies": {
     "antd": "^3.16.6",
     "aws-sdk": "^2.458.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-preset-react-app": "^8.0.0",
     "bcryptjs": "latest",
     "bluebird": "^3.5.4",
